@@ -1,0 +1,61 @@
+body,html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: #f1f1f1;
+    font-family: sans-serif;
+      
+}
+.encabezado-img{
+    position: relative;
+    height: 350px;
+    overflow: hidden;
+    background: url(encabezado.jpg) no-repeat center;
+    background-size: cover;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    
+}
+.container h1{
+    font-size: 72px;
+    letter-spacing: 0.2em;
+    
+}
+.container h1 span{
+    border: 10px solid white;
+    padding:  6px 14px;
+    display: inline-block;
+}
+.border-img{
+    width: 180px;
+    border: 4px solid rgb(82, 7, 82);
+    margin: 8px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(206, 26, 206, 0.774);
+}
+.border-img h2{
+    
+    text-align: center;
+}
+img{
+    width: 170px;
+}
+
+.pokemones-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: justify;
+    
+
+}
